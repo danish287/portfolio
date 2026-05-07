@@ -23,11 +23,6 @@ export function Hero() {
           </div>
         </div>
 
-        <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass-card mb-8">
-          <span className="w-2 h-2 bg-teal-400 rounded-full animate-pulse" />
-          <span className="text-sm text-gray-400">Available for opportunities</span>
-        </div>
-
         <h1 className="text-5xl md:text-7xl font-bold mb-6 tracking-tight">
           Hi, I'm{' '}
           <span className="gradient-text">{personalInfo.name}</span>
