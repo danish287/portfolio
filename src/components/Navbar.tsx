@@ -6,7 +6,7 @@ const navLinks = [
   { label: 'Skills', href: '#skills' },
   { label: 'Experience', href: '#experience' },
   { label: 'Projects', href: '#projects' },
-  { label: 'GitHub', href: '#github' },
+  { label: 'Hobbies', href: '#hobbies' },
   { label: 'Contact', href: '#contact' },
 ];
 
@@ -42,13 +42,6 @@ export function Navbar() {
               {link.label}
             </a>
           ))}
-          <a
-            href="/resume.pdf"
-            target="_blank"
-            className="px-4 py-2 text-sm font-medium rounded-lg bg-accent-400/10 text-accent-400 border border-accent-400/20 hover:bg-accent-400/20 transition-all"
-          >
-            Resume
-          </a>
         </div>
 
         {/* Mobile menu button */}

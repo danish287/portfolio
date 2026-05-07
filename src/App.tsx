@@ -4,7 +4,7 @@ import { About } from './components/About';
 import { Skills } from './components/Skills';
 import { Experience } from './components/Experience';
 import { Projects } from './components/Projects';
-import { GitHubActivity } from './components/GitHubActivity';
+import { Hobbies } from './components/Hobbies';
 import { Contact } from './components/Contact';
 import { Footer } from './components/Footer';
 
@@ -17,7 +17,7 @@ function App() {
       <Skills />
       <Experience />
       <Projects />
-      <GitHubActivity />
+      <Hobbies />
       <Contact />
       <Footer />
     </div>
